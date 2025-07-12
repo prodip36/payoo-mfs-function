@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payoo mfs funtion</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone bg-gray-200">
+  <div class="mockup-phone-camera"></div>
+  <div class="mockup-phone-display text-black grid place-content-center">
+    <h2 class="mb-5 text-center font-bold text-xl">Welcome to payoo system</h2>
+    <!-- main balace section start -->
+     <div class="stat">
+    <div class="stat-title">Current balance</div>
+    <div class="stat-value">89400</div>
+    <div class="stat-actions">
+      <button class="btn btn-xs">Add Money</button>
+      <button class="btn btn-xs">Cash Out</button>
+    </div>
+  </div>
+    <!-- main balace section end -->
+     <div class="divider"></div>
+    <!-- Add Money form start -->
+        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <label class="label">Mobile</label>
+          <input type="text" class="input" placeholder="Enter mobile number" />
+          <label class="label">Pin number</label>
+          <input type="password" class="input" placeholder="Enter 4 digit pin" />
+        
+          <button class="btn btn-neutral mt-4 bg-green-500 border-none">Add Money</button>
+        </fieldset>
+      </div>
+    </div>
+     <!-- Add Money form end -->
+
+       <!-- Cashout form start -->
+        <div class=" hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <label class="label">Mobile</label>
+          <input type="text" class="input" placeholder="Enter mobile number" />
+          <label class="label">Pin number</label>
+          <input type="password" class="input" placeholder="Enter 4 digit pin" />
+        
+          <button class="btn btn-neutral mt-4 bg-red-500 border-none">Cash Out</button>
+        </fieldset>
+      </div>
+    </div>
+     <!-- cashout form end -->
+  </div>
+</div>
+    </main>
+</body>
+</html>
