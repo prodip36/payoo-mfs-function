@@ -17,6 +17,7 @@ function setAttributeValueById(id1,id2){
 function showSectionById(id){
     document.getElementById('container-add-money').classList.add('hidden');
     document.getElementById('container-cash-out').classList.add('hidden');
+    document.getElementById('container-transaction').classList.add('hidden');
     document.getElementById(id).classList.remove('hidden');
 
 }

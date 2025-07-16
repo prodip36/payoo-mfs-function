@@ -15,17 +15,18 @@
     <h2 class="mb-5 text-center font-bold text-xl">Welcome to payoo system</h2>
     <!-- main balace section start -->
      <div class="stat">
-    <div class="stat-title">Current balance</div>
-    <div id="balance-main" class="stat-value">89400</div>
+    <div class="text-center stat-title">Current balance</div>
+    <div id="balance-main" class="text-center stat-value">89400</div>
     <div class="stat-actions">
       <button id="main-add-money" class="btn btn-xs">Add Money</button>
       <button id="main-cash-out" class="btn btn-xs">Cash Out</button>
+      <button id="main-transaction" class="btn btn-xs">Transcations</button>
     </div>
   </div>
     <!-- main balace section end -->
      <div class="divider"></div>
     <!-- Add Money form start -->
-        <div id="container-add-money" class=" card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+        <div id="container-add-money" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <div class="card-body">
         <fieldset class="fieldset">
           <label class="label">Amount</label>
@@ -53,6 +54,18 @@
       </div>
     </div>
      <!-- cashout form end -->
+        <!-- Transaction start -->
+        <div id="container-transaction" class="overflow-auto card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <h2 class="text-center font-bold text-xl">Transactions History</h2>
+          <div id="transaction-section">
+
+          </div>
+        </fieldset>
+      </div>
+    </div>
+     <!-- transaction end -->
   </div>
 </div>
     </main>

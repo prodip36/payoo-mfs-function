@@ -6,3 +6,9 @@ document.getElementById('main-add-money').addEventListener('click', function(eve
     showSectionById('container-add-money');
 
 })
+document.getElementById('main-transaction').addEventListener('click', function(event){
+    // console.log('clicked');
+    showSectionById('container-transaction');
+
+
+})
